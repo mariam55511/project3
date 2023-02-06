@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.font{
+   font-size: xx-large;
+   font-weight: bold;
+}
+.fontsize{
+  font-size: large;
+  font-weight: bold;
+}
+.correct{
+    color:rgb(11, 178, 11);
+}
+.wrong{
+    color:red;
+}
+.color-1{
+color:rgb(163, 81, 239);
+}
+.color-2{
+    color:rgb(248, 173, 82);
+}
+.color-3{
+    color:gray;
+}
+.bg1{
+    background-color: red;
+}
+.bg2{
+ background-color: rgb(163, 81, 239);
+}
+.bg3{
+    background-color: rgb(248, 173, 82);
+}
+
+.chart{
+    background: linear-gradient(to top, #f88b6f, #ef4f4f);
+}
+
+.btn:hover{
+     
+     border-radius: 10px !important;
+     transition-duration:  2s;
+     
+}
+.box1 p:hover{
+    color:red;
+}
+.box2 p:hover{
+    color:rgb(163, 81, 239);
+}
+.box3 p:hover{
+    color:rgb(248, 173, 82);
+}
+.box2{
+    overflow:  auto;
+}
+ .box2 h3::before{
+    content:"Best Value";
+    position: absolute;
+    top:20px;
+    left:-60px;
+    background-color: rgb(163, 81, 239) ;
+    color:white;
+    transform: rotate(-42deg);
+    font-size: large;
+    width:200px;
+    padding-block: 5px;
+    
+}
+    
